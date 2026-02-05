@@ -1,19 +1,28 @@
 {
-  "name": "UniT.Extensions",
-  "rootNamespace": "UniT.Extensions",
-  "references": [
-    "UniTask"
-  ],
-  "versionDefines": [
-    {
-      "name": "com.cysharp.unitask",
-      "expression": "",
-      "define": "UNIT_UNITASK"
-    },
-    {
-      "name": "com.unity.nuget.newtonsoft-json",
-      "expression": "",
-      "define": "UNIT_JSON"
-    }
-  ]
+    "name": "UniT.Extensions",
+    "rootNamespace": "UniT.Extensions",
+    "references": [
+        "UniTask",
+        "VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.cysharp.unitask",
+            "expression": "",
+            "define": "UNIT_UNITASK"
+        },
+        {
+            "name": "com.unity.nuget.newtonsoft-json",
+            "expression": "",
+            "define": "UNIT_JSON"
+        }
+    ],
+    "noEngineReferences": false
 }
